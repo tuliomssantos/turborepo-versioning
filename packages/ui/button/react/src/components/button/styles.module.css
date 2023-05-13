@@ -1,0 +1,43 @@
+.button {
+  display: block;
+
+  text-decoration: none;
+  text-align: center;
+  border: none;
+
+  color: #000000;
+
+  font-size: 16px;
+
+  padding: 0 16px;
+
+  &__primary {
+    color: #ffffff;
+
+    background-color: #000000;
+  }
+
+  &__secondary {
+    background-color: #32a852;
+
+    color: #ffffff;
+  }
+
+  &__small {
+    height: 32px;
+
+    font-size: 14px;
+  }
+
+  &__medium {
+    height: 48px;
+
+    font-size: 18px;
+  }
+
+  &__large {
+    height: 64px;
+
+    font-size: 24px;
+  }
+}
